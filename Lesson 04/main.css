@@ -1,0 +1,55 @@
+.header {
+    width: 100%;
+    height: auto;
+    background: #A52A2A;
+    text-align: center; color: #FFFFFF;
+}
+
+.article1 {
+    width: 100%;
+    height: auto;
+}
+
+.article3 {
+    text-align: center;
+}
+
+.box {
+    font-size: 18px;
+}
+
+.ct1 {
+    color: #0409FF;
+}
+
+.ct2 {
+    color:  #531EFF;
+}
+
+.auto1 {
+    border: 4px dashed black;
+}
+
+.auto2 {
+    border: 4px dashed black;
+}
+
+.auto3 {
+    border: 4px dashed black;
+}
+
+.auto4 {
+    border: 4px dashed black;
+}
+
+.auto5 {
+    border: 4px dashed black;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: black;
+    text-align: center; color: white;
+    font-size: 20px;
+}
