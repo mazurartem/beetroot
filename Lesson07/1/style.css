@@ -81,6 +81,8 @@ body {
 .list__title {
     margin-top: 55px;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .list__title:hover {
     color: white;
@@ -89,7 +91,9 @@ body {
     margin-top: 33px;
     font-family: Montserrat;
     font-size: 14px;
-    text-align: center;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .list__text:hover {
     color: white;
