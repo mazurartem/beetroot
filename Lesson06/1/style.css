@@ -31,10 +31,6 @@ body {
 .navigation__item:nth-child(3) {
     margin-right: 120px;
 }
-.navigation__container {
-    display: block;
-    margin: auto;
-}
 .navigation__title {
     margin-top: 21px;
 }
@@ -55,8 +51,7 @@ body {
     margin: 0 auto;
 }
 .link__icon {
-    transition: all 0.2s ease;
-    
+    transition: all 0.2s ease;  
 }
 .link:hover {
     background-color: white;
