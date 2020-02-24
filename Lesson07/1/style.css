@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 body {
+    margin: 0 auto;
     background-color: white;
     width: 1280px;
     height: 976px;
@@ -18,15 +19,16 @@ body {
     align-items: center;
 }
 .header__text__up {
-    padding-top: 143px;
+    margin-bottom: 35px;
     font-family: Montserrat;
     font-size: 12px;
     color: #898f99;
     font-weight: 700;
     text-align: center;
+    padding-top: 143px;
 }
 .header__title {
-    margin-top: 35px;
+    margin-bottom: 44px;
     font-size: 48px;
     font-weight: 400;
     color: #0ec8cb;
@@ -34,7 +36,7 @@ body {
     text-align: center;
 }
 .header__text__down {
-    margin-top: 44px;
+    margin-bottom: 108px;
     color: #999999;
     font-family: "PT Sans";
     font-size: 18px;
@@ -58,9 +60,10 @@ body {
     color: black;
     fill: black;
     font-family: Montserrat;
-    font-size: 21px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 300;
     background-color: #f7f7f7;
+    
 }
 .list__item:hover {
     background-color: #0ec8cb;
@@ -68,7 +71,9 @@ body {
     color: white;
 }
 .box {
-    margin-top: 55px;
+    margin-bottom: 55px;
+    padding-top: 55px;
+    overflow-x:hidden;
 }
 .list__icon {
     display: flex;
@@ -79,7 +84,7 @@ body {
     fill: white;
 }
 .list__title {
-    margin-top: 55px;
+    margin-bottom: 33px;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -88,7 +93,7 @@ body {
     color: white;
 }
 .list__text {
-    margin-top: 33px;
+    margin-bottom: 94px;
     font-family: Montserrat;
     font-size: 14px;
     text-align: justify;
