@@ -1,0 +1,133 @@
+@import url('weather-icons-wind.css');
+@import url('weather-icons.css');
+:root {
+    --main-color: #3399cc;
+    --lisabon-color: #3399cc;
+    --paris-color: #34CCCC;
+    --belgrad-color: #936092;
+    --kyiv-color: #BD4343;
+    --telaviv-color: #E06549;
+    --cair-color: #FFCE6A;
+    --newyork-color: #9ACD9B;
+    --newdelhi-color: #629495;
+    --sanfrancisco-color: #C96395;
+    --tokyo-color: #2C9462;
+    --sydney-color: #5E5E90;
+    --white: #fff;
+    --border-color: #2881ac;
+    --max-width: 990px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 24px solid var(--border-color);
+    background-color: var(--main-color);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 32px;
+}
+
+.header {
+    margin: 0 auto;
+    max-width: var(--max-width);
+    margin-bottom: 32px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.main {
+    margin: 0 auto 32px;
+    max-width: var(--max-width);
+    background: var(--white);
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid var(--white)
+}
+
+.list__item:nth-child(1) {
+    background-color: var(--lisabon-color);
+    width: 50%;
+}
+.list__item:nth-child(2) {
+    background-color: var(--paris-color);
+    width: 25%;
+}
+.list__item:nth-child(3) {
+    background-color: var(--belgrad-color);
+    width: 25%;
+}
+.list__item:nth-child(4) {
+    background-color: var(--kyiv-color);
+    width: 25%;
+}
+.list__item:nth-child(5) {
+    background-color: var(--telaviv-color);
+    width: 25%;
+}
+.list__item:nth-child(6) {
+    background-color: var(--cair-color);
+    width: 25%;
+}
+.list__item:nth-child(7) {
+    background-color: var(--newyork-color);
+    width: 25%;
+}
+.list__item:nth-child(8) {
+    background-color: var(--newdelhi-color);
+    width: 25%;
+}
+.list__item:nth-child(9) {
+    background-color: var(--sanfrancisco-color);
+    width: 50%;
+}
+.list__item:nth-child(10) {
+    background-color: var(--tokyo-color);
+    width: 25%;
+}
+.list__item:nth-child(11) {
+    background-color: var(--sydney-color);
+    width: 100%;
+}
+.list:hover .list__item:not(:hover) {
+    opacity: 0.5;
+}
+.city {
+    border: 2px solid;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.city:not(:hover) {
+    opacity: 1;
+}
+.city__name {
+    color: var(--white);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.city__deg {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--white);
+}
+.footer {
+    margin: 0 auto;
+    max-width: var(--max-width);
+    color: var(--white);
+}
