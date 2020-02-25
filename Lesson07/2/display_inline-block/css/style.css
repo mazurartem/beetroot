@@ -33,8 +33,7 @@ body {
 
 .header {
     margin: 0 auto;
-    max-width: var(--max-width);
-   
+    max-width: var(--max-width); 
 }
 
 .title {
@@ -54,54 +53,77 @@ body {
 
 .list {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
     border: 2px solid var(--white);
+    
 }
 
 .list__item:nth-child(1) {
     background-color: var(--lisabon-color);
+    display: inline-block;
     width: 50%;
+    margin-right: -0.25em;
+    
 }
 .list__item:nth-child(2) {
     background-color: var(--paris-color);
+    display: inline-block;
     width: 25%;
+    margin-right: -0.25em;
 }
 .list__item:nth-child(3) {
     background-color: var(--belgrad-color);
+    display: inline-block;
     width: 25%;
+    margin-right: -0.25em;
 }
 .list__item:nth-child(4) {
     background-color: var(--kyiv-color);
+    display: inline-block;
     width: 25%;
+    margin-right: -0.25em;
 }
 .list__item:nth-child(5) {
     background-color: var(--telaviv-color);
+    display: inline-block;
     width: 25%;
+    margin-right: -0.25em;
 }
 .list__item:nth-child(6) {
     background-color: var(--cair-color);
+    display: inline-block;
     width: 25%;
+    margin-right: -0.25em;
 }
 .list__item:nth-child(7) {
     background-color: var(--newyork-color);
+    display: inline-block;
     width: 25%;
+    margin-right: -0.25em;
 }
 .list__item:nth-child(8) {
     background-color: var(--newdelhi-color);
+    display: inline-block;
     width: 25%;
+    margin-right: -0.25em;
 }
 .list__item:nth-child(9) {
     background-color: var(--sanfrancisco-color);
+    display: inline-block;
     width: 50%;
+    margin-right: -0.25em;
 }
 .list__item:nth-child(10) {
     background-color: var(--tokyo-color);
+    display: inline-block;
     width: 25%;
+    margin-right: -0.25em;
 }
 .list__item:nth-child(11) {
     background-color: var(--sydney-color);
+    display: inline-block;
     width: 100%;
+    margin-right: -0.25em;
 }
 .list:hover .list__item:not(:hover) {
     opacity: 0.5;
@@ -109,12 +131,9 @@ body {
 .city {
     border: 2px solid var(--white);
     height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     transition: all 0.2s ease;
     cursor: pointer;
+    display: block;
 }
 .city:not(:hover) {
     opacity: 1;
@@ -123,6 +142,10 @@ body {
     color: var(--white);
     font-weight: 700;
     margin-bottom: 12px;
+    text-align: center;
+}
+.city__row {
+    text-align: center;
 }
 .city__deg {
     font-weight: 400;
@@ -133,7 +156,6 @@ body {
     margin: 0 auto;
     max-width: var(--max-width);
     color: var(--white);
-    
 }
 .wi {
     color: var(--white);
