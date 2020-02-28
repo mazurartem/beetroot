@@ -134,6 +134,7 @@ body {
     transition: all 0.2s ease;
     cursor: pointer;
     display: block;
+    padding-top: 40px;
 }
 .city:not(:hover) {
     opacity: 1;
@@ -143,6 +144,7 @@ body {
     font-weight: 700;
     margin-bottom: 12px;
     text-align: center;
+
 }
 .city__row {
     text-align: center;

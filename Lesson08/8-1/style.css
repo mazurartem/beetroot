@@ -1,0 +1,129 @@
+@import url("fonts/stylesheet.css");
+
+:root {
+  --main-color: #fdde80;
+  --card-color: #ffffff;
+  --price-color: #02995b;
+  --metals-color: #333333;
+  --text-color: #333333;
+  --white-color: #ffffff;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background: var(--white-color);
+  margin: 0 auto;
+  width: 1200px;
+  height: 600px;
+}
+.main {
+  background: var(--main-color);
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 1200px;
+  height: 600px;
+}
+.list__item-first {
+  width: 360px;
+  height: 441px;
+  background: var(--card-color);
+}
+.list__item-first:hover {
+  cursor: pointer;
+  background: burlywood;
+}
+.list__item-second {
+  width: 360px;
+  height: 500px;
+  background: var(--card-color);
+}
+.list__item-second:hover {
+  cursor: pointer;
+  background: burlywood;
+}
+.list__item-third {
+  width: 360px;
+  height: 441px;
+  background: var(--card-color);
+}
+.list__item-third:hover {
+  cursor: pointer;
+  background: burlywood;
+}
+.list__price {
+  margin: 0 auto;
+  color: var(--price-color);
+  font-family: "misoruregular";
+  font-size: 70px;
+  font-weight: 700;
+}
+.pricefirst {
+  height: 95px;
+  padding-left: 154px;
+  padding-right: 154px;
+  padding-top: 30px;
+}
+.pricesecond {
+  height: 105px;
+  padding-left: 154px;
+  padding-right: 156px;
+  padding-top: 40px;
+}
+.pricethird {
+  height: 95px;
+  padding-left: 134px;
+  padding-right: 135px;
+  padding-top: 30px;
+}
+.list__cup {
+  padding-left: 120px;
+  padding-right: 105px;
+}
+.cupfirst {
+  padding-top: 23px;
+}
+.cupsecond {
+  padding-top: 43px;
+}
+.cupthird {
+  padding-top: 23px;
+}
+.list__metals {
+  color: var(--metals-color);
+  font-family: "misoruregular";
+  font-size: 56px;
+  font-weight: 400;
+  padding-left: 102px;
+  padding-right: 102px;
+  text-align: center;
+}
+.bronze {
+  padding-top: 18px;
+  padding-bottom: 30px;
+}
+.gold {
+  padding-top: 27px;
+  padding-bottom: 30px;
+}
+.silver {
+  padding-top: 18px;
+  padding-bottom: 30px;
+}
+.list__text {
+  color: var(--text-color);
+  font-family: "latolight";
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 102px;
+  padding-right: 102px;
+  text-align: center;
+}
