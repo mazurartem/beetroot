@@ -32,30 +32,30 @@ body {
   width: 1200px;
   height: 600px;
 }
-.list__item-first {
+.list__item--first {
   width: 360px;
   height: 441px;
   background: var(--card-color);
 }
-.list__item-first:hover {
+.list__item--first:hover {
   cursor: pointer;
   background: burlywood;
 }
-.list__item-second {
+.list__item--second {
   width: 360px;
   height: 500px;
   background: var(--card-color);
 }
-.list__item-second:hover {
+.list__item--second:hover {
   cursor: pointer;
   background: burlywood;
 }
-.list__item-third {
+.list__item--third {
   width: 360px;
   height: 441px;
   background: var(--card-color);
 }
-.list__item-third:hover {
+.list__item--third:hover {
   cursor: pointer;
   background: burlywood;
 }
@@ -66,19 +66,19 @@ body {
   font-size: 70px;
   font-weight: 700;
 }
-.pricefirst {
+.list__price--first {
   height: 95px;
   padding-left: 154px;
   padding-right: 154px;
   padding-top: 30px;
 }
-.pricesecond {
+.list__price--second {
   height: 105px;
   padding-left: 154px;
   padding-right: 156px;
   padding-top: 40px;
 }
-.pricethird {
+.list__price--third {
   height: 95px;
   padding-left: 134px;
   padding-right: 135px;
@@ -88,13 +88,13 @@ body {
   padding-left: 120px;
   padding-right: 105px;
 }
-.cupfirst {
+.list__cup--first {
   padding-top: 23px;
 }
-.cupsecond {
+.list__cup--second {
   padding-top: 43px;
 }
-.cupthird {
+.list__cup--third {
   padding-top: 23px;
 }
 .list__metals {
