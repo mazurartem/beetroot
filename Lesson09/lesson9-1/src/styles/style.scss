@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+@import "./core/common";
+@import "./core/vars";
+@import "./components/button";
+@import "./components/main";
+
+body {
+  background-color: $backgroung-color;
+  margin: 0 auto;
+  width: 1600px;
+  height: 1200px;
+  padding: 130px 100px 130px 100px;
+}

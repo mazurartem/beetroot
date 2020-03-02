@@ -1,0 +1,16 @@
+.box {
+  padding-top: 5px;
+}
+.button {
+  display: block;
+  width: 264px;
+  height: 68px;
+  border: 2px solid $button-color;
+  background: $backgroung-color;
+  color: $button-color;
+  font-family: $latolight-font;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+}
