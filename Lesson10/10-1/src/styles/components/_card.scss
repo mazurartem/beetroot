@@ -24,8 +24,7 @@
     height: 60px;
     width: 60px;
     text-align: center;
-    background-color: $bg-date-color;
-    opacity: 50%;
+    background-image: url(../images/bg.png);
   }
   &__content {
     @extend %visible-z;
@@ -47,6 +46,7 @@
     font-weight: 700;
     color: $white;
     line-height: 30px;
+    position: relative;
   }
   &__month {
     font-size: 21px;
