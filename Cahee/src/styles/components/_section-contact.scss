@@ -3,7 +3,6 @@
   background-size: cover;
   background-position: center center;
   position: relative;
-
   &__text {
     text-align: center;
     @include flex(flex-start, stretch, column);
