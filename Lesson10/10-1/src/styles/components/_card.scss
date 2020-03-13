@@ -4,7 +4,7 @@
   position: relative;
   display: flex;
   align-items: flex-end;
-  background: $card-shadow;
+  box-shadow: $card-shadow;
   &__image {
     position: absolute;
     top: 0;

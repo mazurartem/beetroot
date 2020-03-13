@@ -1,0 +1,22 @@
+.navigation {
+  height: 90px;
+  position: fixed;
+  background-color: bisque;
+  @include flex(space-between);
+  top: 0;
+  left: 0;
+  right: 0;
+  @extend %container;
+  &__list {
+    list-style: none;
+    @include flex;
+  }
+  &__item {
+    &:not(:last-child) {
+      margin-right: 22px;
+    }
+  }
+  &__link {
+    font-size: ;
+  }
+}

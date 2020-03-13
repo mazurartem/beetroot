@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900&display=swap");
+
+@import "./core/vars";
+@import "./core/inheritance";
+@import "./core/mixins";
+@import "./core/common";
+
+@import "./components/section-contact";
+@import "./components/form-box";
+@import "./components/info-box";
+@import "./components/footer";
