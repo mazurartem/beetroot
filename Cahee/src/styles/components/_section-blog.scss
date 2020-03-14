@@ -1,0 +1,37 @@
+.section {
+  background-color: $blog-bg-color;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    text-align: center;
+    @include text($H900, 700, $white);
+    margin-bottom: 42px;
+    line-height: 0.75;
+  }
+  &__description {
+    @include text($H200, 300, $white);
+    line-height: 1.5;
+    max-width: 570px;
+    text-align: center;
+
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    @extend %container;
+  }
+  &__list-item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    &:hover {
+      box-shadow: $blog-btn-color;
+      cursor: pointer;
+    }
+  }
+}

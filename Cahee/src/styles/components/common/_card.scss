@@ -4,7 +4,7 @@
   position: relative;
   display: flex;
   align-items: flex-end;
-  box-shadow: $card-shadow;
+  box-shadow: $blog-btn-color;
   &__image {
     position: absolute;
     top: 0;
@@ -24,18 +24,16 @@
     height: 60px;
     width: 60px;
     text-align: center;
-    background-image: url(../images/backg.png);
+    background-image: url(/images/backg.png);
   }
   &__content {
     @extend %visible-z;
     padding: 20px;
     background: $content-gradient;
-    max-width: 300px;
+    min-width: 300px;
   }
   &__title {
-    font-size: $card-title-fs;
-    color: $white;
-    font-weight: 700;
+    @include text($H200, 700, $white);
     margin-bottom: 18px;
   }
   &__info {
