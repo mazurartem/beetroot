@@ -29,14 +29,15 @@ function threeDigitNumber() {
 }
 threeDigitNumber();
 
-let length = prompt("Enter length");
-let width = prompt("Enter width");
+let a = prompt("Enter length");
+let b = prompt("Enter width");
+console.log(`This is ${a}, ${b}`);
 
-function rectangleArea(length, width) {
-  if (length !== undefined && width !== undefined) {
-    return width * length;
-  } else if (length === "" && width !== undefined) {
-    return width * 4;
+function rectangleArea(a, b) {
+  if (a > 0 && b > 0) {
+    return a * b;
+  } else if (a == 0) {
+    return b * 4;
   }
 }
-console.log(rectangleArea(length, width));
+console.log(rectangleArea(a, b));
