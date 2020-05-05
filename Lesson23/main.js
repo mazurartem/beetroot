@@ -206,7 +206,9 @@ alert(result);
 
 const day = prompt("Enter day");
 const month = prompt("Enter month");
-const year = prompt("Enter year");
+const year1 = prompt("Enter year");
 
-const date = new Date(Number(year), Number(month - 1), Number(day) + 1);
-alert(date.toLocaleDateString({ day: "2-digit", month: "long", year: "long" }));
+const date = new Date(Number(year1), Number(month - 1), Number(day) + 1);
+alert(
+  date.toLocaleDateString({ day: "2-digit", month: "long", year1: "long" })
+);
